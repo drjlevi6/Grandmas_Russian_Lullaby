@@ -2,12 +2,16 @@
 
 \header{
   title = "Grandma Leffler’s Counting-Song"
+  subtitle = "(Reconstructed by Jonathan Levi and Margaret Schindel)"
+    % Do not display the default LilyPond footer for this book
+    tagline = ##f}
+
+
+\markup {
+	\vspace #3
+	\bold "First Verse:"
 }
 
-\markup "(Reconstructed by Jonathan Levi and Margaret Schindel)"
-
-
-\markup \bold "First Verse:"
 \score {
 <<
   \relative {
@@ -42,7 +46,11 @@
 >>
 } % end score
 %--------1---------2---------3---------4---------5---------6---------7---------8
-\markup \bold "Following Verses:"
+\markup {
+	\vspace #3
+	\bold "Following Verses:"
+}
+
 \score {
 <<
   \relative {
